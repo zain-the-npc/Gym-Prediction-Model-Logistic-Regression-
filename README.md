@@ -23,3 +23,28 @@ This project was developed using standard Python data science libraries:
 * **Data Manipulation:** Pandas (for data loading and transformation)
 * **Machine Learning:** Scikit-learn (for model training and evaluation)
 * **Visualization:** Matplotlib (for plotting the Sigmoid curve)
+
+***
+
+## Project Files
+
+* `logistic_gym_prediction.ipynb` — the full notebook, including exploratory output and the Sigmoid visualization
+* `logistic_gym_prediction.py` — the same pipeline as a standalone script
+* `logistic_gym_prediction.pdf` — exported notebook for quick viewing without running anything
+* `gym_decision_dataset.csv` — the dataset used for training and evaluation (500 records)
+
+## Running It
+
+```bash
+git clone https://github.com/zain-the-npc/Gym-Prediction-Model-Logistic-Regression-.git
+cd Gym-Prediction-Model-Logistic-Regression-
+pip install -r requirements.txt
+python logistic_gym_prediction.py
+```
+
+This trains the model, prints accuracy and a classification report, then launches an interactive prompt where you can enter your own motivation level, distance, weather, and day to get a live prediction.
+
+## License
+
+This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
+
